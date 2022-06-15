@@ -11,6 +11,7 @@
 		71FD9D5F285916CA0071D40B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FD9D5E285916CA0071D40B /* ContentView.swift */; };
 		71FD9D61285916D10071D40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FD9D60285916D10071D40B /* Assets.xcassets */; };
 		71FD9D64285916D10071D40B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FD9D63285916D10071D40B /* Preview Assets.xcassets */; };
+		71FD9D6E285962FC0071D40B /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FD9D6D285962FC0071D40B /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		71FD9D5E285916CA0071D40B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71FD9D60285916D10071D40B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71FD9D63285916D10071D40B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71FD9D6A285925F30071D40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		71FD9D6D285962FC0071D40B /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +54,12 @@
 		71FD9D5B285916CA0071D40B /* SwiftUI-User-Location-Map-MapKit-CoreLocation */ = {
 			isa = PBXGroup;
 			children = (
+				71FD9D6A285925F30071D40B /* Info.plist */,
 				71FD9D5C285916CA0071D40B /* SwiftUI_User_Location_Map_MapKit_CoreLocationApp.swift */,
 				71FD9D5E285916CA0071D40B /* ContentView.swift */,
 				71FD9D60285916D10071D40B /* Assets.xcassets */,
 				71FD9D62285916D10071D40B /* Preview Content */,
+				71FD9D6D285962FC0071D40B /* ContentViewModel.swift */,
 			);
 			path = "SwiftUI-User-Location-Map-MapKit-CoreLocation";
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			files = (
 				71FD9D5F285916CA0071D40B /* ContentView.swift in Sources */,
 				71FD9D5D285916CA0071D40B /* SwiftUI_User_Location_Map_MapKit_CoreLocationApp.swift in Sources */,
+				71FD9D6E285962FC0071D40B /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +275,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-User-Location-Map-MapKit-CoreLocation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-User-Location-Map-MapKit-CoreLocation/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Este aplicativo precisa usar sua localizacão para exibir o mapa";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +305,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-User-Location-Map-MapKit-CoreLocation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-User-Location-Map-MapKit-CoreLocation/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Este aplicativo precisa usar sua localizacão para exibir o mapa";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
